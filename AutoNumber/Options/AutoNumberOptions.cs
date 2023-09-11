@@ -13,7 +13,7 @@ public class AutoNumberOptions
 
     public string DatabaseId { get; set; }
 
-    public string ContainerName => "autoNumberStates";
+    public string ContainerName { get; set; } = "autoNumberStates";
 
     public string ConnectionString { get; set; }
         

@@ -70,6 +70,16 @@ public class AutoNumberOptionsBuilder
     }
 
     /// <summary>
+    ///     Set Cosmos Container Name
+    /// </summary>
+    /// <param name="containerName">Container name to use for maning identifiers</param>
+    public AutoNumberOptionsBuilder SetContainerName(string containerName)
+    {
+        Options.ContainerName = containerName;
+        return this;
+    }
+
+    /// <summary>
     ///     Set Cosmos Database Id
     /// </summary>
     /// <param name="databaseId">Database identifier</param>
